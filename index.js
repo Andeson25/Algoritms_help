@@ -9,6 +9,7 @@ keys.forEach(el => {
 var index=-1;
 function activated(e) {
   if(index===parseInt(this.firstElementChild.innerHTML.split(')')[0])-1&& keys[index].lastElementChild.style.display ==='block'){
+     // keys[index].scrollIntoView();
      keys[index].lastElementChild.style.display = 'none';
      index=-1;
      return;
