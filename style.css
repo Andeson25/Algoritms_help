@@ -1,0 +1,36 @@
+img{
+	max-height: 800px
+	max-width: 100%
+}
+body{
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item{
+		cursor: pointer;
+	padding-left: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.item a{
+	height: 20px;
+	box-sizing: border-box;
+
+
+	align-self: start!important;
+	margin-bottom: 10px;
+}
+.item:hover{
+	color: blue;
+	
+}
+.item:hover a{
+	border-bottom: 1px solid blue;
+}
